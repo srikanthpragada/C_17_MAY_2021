@@ -5,6 +5,6 @@
 
 void main()
 {
-   printf("Srikanth Pragada");
+   printf("Srikanth Pragada\n");
    printf("srikanth@srikanthtechnologies.com");
 }
