@@ -10,7 +10,7 @@ void main()
      scanf("%d",&price);
 
      if(price > 1000)
-         price = price * 90 / 100;
+         price = price * 90 / 100;  // price = price * 0.90;     price *= 0.90;
      else
          price = price * 95 / 100;
 
