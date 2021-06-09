@@ -11,7 +11,9 @@ void main()
      strcpy(st2,st1);  // Copy st1 to st2
      puts(st1);
      puts(st2);
+
      strupr(st2);
      puts(st2);
 
+     printf("%d\n", stricmp(st1,st2));
 }
