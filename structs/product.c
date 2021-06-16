@@ -5,10 +5,12 @@ struct product {
    int qoh;
 };
 
+typedef struct product PRODUCT;
 
 void main()
 {
   struct product p1;
+  PRODUCT p2;
 
      strcpy(p1.name,"Product1");
      p1.price = 10.50;
